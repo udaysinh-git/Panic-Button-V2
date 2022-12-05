@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Note",
+    "version": "1.0.0",
+    "description": "Take Notes",
+    "permissions": [
+        "history",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "/img/icons.png"
+    }
+}
